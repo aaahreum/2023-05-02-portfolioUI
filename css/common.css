@@ -162,3 +162,67 @@ body {
   border-radius: 100%;
   border-top-right-radius: 0;
 }
+
+/* skills */
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 134px 0;
+  text-align: center;
+  gap: 45px;
+}
+
+.skills .item {
+  padding: 0 40px;
+}
+
+.skills .item .icon {
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
+}
+
+.skills .item h3 {
+  font-size: 27px;
+  font-weight: 700;
+  margin: 63px 0 20px;
+}
+.skills .item p {
+  font-size: 17px;
+}
+
+/* portfolio */
+
+.works {
+  padding: 50px 0;
+}
+
+.works h2 {
+  margin-bottom: 56px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.works ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+}
+
+.works ul li .photo {
+  height: 330px;
+}
+/* grid로 해놔서 width 지정할필요없음 */
+
+.works ul li .photo img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.works ul li .title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px 0 4px;
+}
