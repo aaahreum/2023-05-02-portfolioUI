@@ -129,5 +129,15 @@
         </div>
       </div>
     </div>
+
+    <script>
+      const btn = document.querySelector(".bars i");
+      const gnb = document.querySelector(".gnb");
+
+      btn.addEventListener("click", function () {
+        gnb.classList.toggle("active");
+        this.btn.classList.toggle("xi-close");
+      });
+    </script>
   </body>
 </html>
