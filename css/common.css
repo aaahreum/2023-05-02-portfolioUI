@@ -231,9 +231,6 @@ body {
 /* mobile */
 
 @media (max-width: 576px) {
-  .container {
-  }
-
   /* header */
 
   .header {
@@ -263,11 +260,6 @@ body {
   .gnb li a {
     font-size: 24px;
     text-align: center;
-  }
-
-  .gnb li a span {
-    display: block;
-    position: relative;
   }
 
   .bars {
@@ -314,25 +306,6 @@ body {
   .skills {
     grid-template-columns: repeat(1, 1fr);
     gap: 90px;
-  }
-
-  .skills .item {
-    padding: 0 40px;
-  }
-
-  .skills .item .icon {
-    width: 125px;
-    height: 125px;
-    margin: 0 auto;
-  }
-
-  .skills .item h3 {
-    font-size: 27px;
-    font-weight: 700;
-    margin: 63px 0 20px;
-  }
-  .skills .item p {
-    font-size: 17px;
   }
 
   /* work */
